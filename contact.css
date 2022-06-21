@@ -1,0 +1,8 @@
+body {
+    background-image: linear-gradient( to right top, #f2a20c, #ef9405, #eb8602, #e67802, #e16a05, #d46403, #c85f02, #bc5901, #a85901, #955704, #83550b, #735112);
+    color: white;
+}
+
+.form-control {
+    background: rgba(255, 193, 9, 0.8);
+}

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <!--Fontawesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <!--Bootstrap 5.2 CSS-->
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="CSS/contact.css">
+
+
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="text-center">Contact Us</h1>
+        <form class="row g-3" action="https://formsubmit.co/denise@denisemartin.com" method="post">
+            <!--Honeypot-->
+            <input type="text" name="_honey" style="display:none;">
+            <!--Disable Captcha-->
+            <input type="hidden" name="_captcha" value="false">
+            <input type="hidden" name="_subject" value="Woooohoo It worked!">
+            <div class="col-md-12">
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="I&nbsp;am&nbsp;in&nbsp;Phoenix" id="phoenix">
+                    <label class="form-check-label" for="phoenix">
+                  Phoenix
+                </label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="I&nbsp;am&nbsp;in&nbsp;Sacramento" id="sacramento">
+                    <label class="form-check-label" for="sacramento">
+                  Sacramento
+                </label>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <label for="fname" class="form-label">First Name</label>
+                <input type="text" class="form-control" name="First&nbsp;Name" id="fname" required>
+            </div>
+            <div class="col-md-6">
+                <label for="lname" class="form-label">Last Name</label>
+                <input type="text" class="form-control" name="Last&nbsp;Name" id="lname" required>
+            </div>
+            <div class="col-md-8">
+                <label for="email" class="form-label">Email Address</label>
+                <input type="email" class="form-control" name="Email" id="email" required>
+            </div>
+            <input type="hidden" name="_next" value="/Applications/MAMP/htdocs/ideal21/thankyou.html">
+            <div class="col-md-4">
+                <label for="phone" class="form-label">Phone Number</label>
+                <input type="text" class="form-control" name="Phone" id="phone" required>
+            </div>
+            <div class="col-md-12">
+                <h3 class="text-center">Games I'm interested in:</h3>
+            </div>
+            <div class="col-md-12">
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="checkbox" name="Learn&nbsp;Baccarat" id="baccarat">
+                    <label class="form-check-label" for="baccarat" value="baccarat">Baccarat</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="checkbox" name="Learn&nbsp;Blackjack" id="blackjack">
+                    <label class="form-check-label" for="blackjack" value="blackjack">Blackjack</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="checkbox" name="Learn&nbsp;Craps" id="craps">
+                    <label class="form-check-label" for="craps" value="bcraps">Craps</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="checkbox" name="Learn&nbsp;Let&nbsp;It&nbsp;Ride" id="letitride">
+                    <label class="form-check-label" for="letitride" value="letitride">Let It Ride</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="checkbox" name="Learn&nbsp;Online" id="online">
+                    <label class="form-check-label" for="online" value="online">Online</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="checkbox" name="Learn&nbsp;Pai&nbsp;Gow" id="paigow">
+                    <label class="form-check-label" for="paigow" value="paigow">Pai Gow</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="checkbox" name="Learn&nbsp;Poker" id="poker">
+                    <label class="form-check-label" for="poker" value="poker">Poker</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="checkbox" name="Learn&nbsp;Roulette" id="roulette">
+                    <label class="form-check-label" for="roulette" value="roulette">Roulette</label>
+                </div>
+            </div>
+
+            <div class="col-md-12">
+                <label for="comments" class="form-label">Comments and Questions</label>
+                <textarea class="form-control " name="Comments&nbsp;and&nbsp;Questions" rows="3"></textarea>
+            </div>
+            <div class="col-md-12"><button type="submit" class="btn btn-warning btn-lg">Send</button></div>
+
+
+    </div>
+    <!--jQuery 3.6.0-->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2 " crossorigin="anonymous"></script>
+</body>
+
+</html>
